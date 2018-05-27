@@ -1,104 +1,166 @@
 #include <stdio.h>
-#include <stdlib.h>#include <string.h>
+#include <stdlib.h>
+#include <string.h>
 
 #include "hashTable.h"
 
 #define BUFFER_SIZE 96
+#define DEBUG
 
-struct data{
+struct data
+{
     char *eng;
     char *ptbr;
 };
 
-data_t* arquivo(char* nome_arq)
+data_t* array_dados[294];               // Vetor estatico
+
+void arquivo(char* nome_arq)
 {
-    data_t* dados;
     FILE* fp;
     char buffer[BUFFER_SIZE], buffer_eng[BUFFER_SIZE], buffer_pt[BUFFER_SIZE];
-    int linha = 0, index = 0;
+    int tamanho_arq = 0;
 
     // Abre o arquivo
     fp = fopen(nome_arq, "r");
-    if (fp == NULL){
+    if (fp == NULL)
+    {
         perror("Erro em arquivo: fopen: ");
         exit(EXIT_FAILURE);
     }
 
-    // Conta as linhas do arquivo
-    while(fgets(buffer, 294, fp) != NULL)
-        linha++;
-     rewind(fp);
+    // Tamanho do arquivo
+    tamanho_arq = tamanho_arquivo("palavras.csv");
 
-    // Aloca a memória para a struct data
-    dados = (data_t*)malloc(sizeof(data_t)*linha);
-    if (dados == NULL){
-        perror("Erro em 'arquivo': ");
-        exit(1);
+    rewind(fp);
+
+    // Aloca a memï¿½ria para a struct data
+    //data_t* array_dados[tamanho_arq];
+
+    // Lï¿½ os dados do arquivo
+    while(fgets(buffer, 64, fp) != NULL)
+    {
+        fscanf(fp,"%50[^,],%50[^,]", buffer_eng, buffer_pt);
+        //printf("%s\n", buffer_eng);
+        insere_elemento(buffer_eng, buffer_pt, tamanho_arq);
     }
-    init_dados(dados);      // Inicializa a struct
-
-    // Lê os dados do arquivo
-     while(fgets(buffer, 294, fp) != NULL){
-        sscanf(buffer,"%50[^,],%50[^,]", buffer_eng, buffer_pt);
-        index = indice_elemento(dados, buffer_eng, buffer_pt, linha);
-
-        printf("%d      ", index);
-        printf("%s\n", buffer_eng);
-    }
-
-
+    print_data(tamanho_arq);
     fclose(fp);
-    return dados;
 }
 
 /**
-    Função que insere elementos do arquivo
+    Funï¿½ï¿½o que insere elementos do arquivo
 
-    Sistema de colisão: Quadratic Probing
+    Sistema de colisï¿½o: Linear Probing
 **/
-int indice_elemento(data_t* dados, char* eng, char* pt, int tamanho)
+void insere_elemento(char* eng, char* pt, int tamanho)
 {
-    int num = 0, i, index = 0;
-    num = conv_string(eng);
-    for(i=0; i<tamanho; i++){
-        index = indice_quadratic_probing(num, i, tamanho);
-        if (dados[index].eng == NULL){
-            //dados[index].eng = eng;
-            //printf("%s  \n",dados[index].eng);
-            return index;
-        }
-    }
-    return -1;
+    data_t* dados = (data_t*)malloc(sizeof(data_t));
+
+    int index = 0, tam=0, tam2=0;
+
+    tam = strlen(eng);
+    dados->eng = malloc(tam+1);
+    strcpy(dados->eng, eng);
+
+    tam2 = strlen(pt);
+    dados->ptbr = malloc(tam2+1);
+    strcpy(dados->ptbr, pt);
+
+    index = hash_code(eng, tamanho);
+
+    while (array_dados[index] != NULL)
+        index++;
+
+    array_dados[index] = dados;
+
+#ifndef DEBUG
+    printf("%d  %s   %s\n", index, dados->eng, dados->ptbr);
+#endif // DEBUG
 }
 
-/** Função que retorna um indice **/
-int indice_quadratic_probing(int num, int i, int tamanho)
+/** Funï¿½ï¿½o que cria uma hash **/
+int hash_code(char* palavra, int tamanho)
 {
-    int index = 0;
-
-    index = (num +(i*i))%tamanho;
-
-    return index;
-}
-
-/** Converte a string em um valor inteiro **/
-int conv_string(char* palavra)
-{
-    int tamanho = 0, i, num=0;
+    int tam = 0, i, num=0, index=0;
     char carac;
-    tamanho = strlen(palavra);
+    tam = strlen(palavra);
 
     // Converte os valores dos caracteres em inteiros
-    for(i=0; i<tamanho;i++){
+    for(i=0; i<tam; i++)
+    {
         carac = palavra[i];
         num += carac;
     }
-    return num;
+    index = num%tamanho;
+#ifndef DEBUG
+    printf("%d\n", index);
+#endif // DEBUG
+    return index;
 }
 
-/** Função que inicializa os dados da struct **/
-void init_dados(data_t* dados){
-    dados->eng = NULL;
-    dados->ptbr = NULL;
+/**   Funï¿½ï¿½o de procura  **/
+void procura(char* eng)
+{
+    int index = 0;
+
+    // Pega o valor do hash da palavra
+    index = hash_code(eng, tamanho_arquivo("palavras.csv"));
+
+    while(array_dados[index] != NULL)
+    {
+        if(strcmp(array_dados[index]->eng, eng) == 0)
+        {
+            printf("Palavra:  %s\n", array_dados[index]->eng);
+            printf("Traducao: %s\n", array_dados[index]->ptbr);
+        }
+        index++;
+    }
+
 }
 
+/**  Funï¿½ï¿½o que retorna o tamanho do arquivo  **/
+int tamanho_arquivo(char* nome_arq)
+{
+    FILE* fp;
+    int tamanho_arq = 0;
+    char buffer[BUFFER_SIZE];
+    // Abre o arquivo
+    fp = fopen(nome_arq, "r");
+    if (fp == NULL)
+    {
+        perror("Erro em arquivo: fopen: ");
+        exit(EXIT_FAILURE);
+    }
+
+    // Tamanho do arquivo
+    while(fgets(buffer, 294, fp) != NULL)
+        tamanho_arq++;
+
+    return tamanho_arq;
+}
+
+/**  Funï¿½ï¿½o que imprime os dados da struct **/
+void print_data (int tamanho)
+{
+    int i;
+    for(i = 0; i<tamanho; i++)
+    {
+        if(array_dados[i] != NULL)
+            printf("%d  %s\n", i, array_dados[i]->eng);
+        else
+            printf("--\n");
+    }
+}
+
+void libera_memoria()
+{
+    int tamanho = 0,i;
+
+    tamanho = tamanho_arquivo("palavras.csv");
+
+    for (i=0; i<tamanho;  i++){
+        free(array_dados[i]->eng);
+        free(array_dados[i]->ptbr);
+    }
+}

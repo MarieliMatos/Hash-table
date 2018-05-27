@@ -5,9 +5,9 @@
 
 int main()
 {
-    data_t* dados;
+  arquivo("palavras.csv");
 
-    dados = arquivo("palavras.csv");
+  procura("usual");           // Teste
 
     return 0;
 }

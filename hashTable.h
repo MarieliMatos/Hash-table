@@ -3,10 +3,13 @@
 
 typedef struct data data_t;
 
-data_t* arquivo(char* nome_arq);
-void init_dados(data_t* dados);
+void procura(char* eng);
+void insere_elemento(char* eng, char* pt, int tamanho);
 
-int indice_elemento(data_t* dados, char* eng, char* pt, int tamanho);
-int indice_quadratic_probing(int num, int i, int tamanho);
-int conv_string(char* palavra);
+void arquivo(char* nome_arq);
+int hash_code(char* palavra, int tamanho);
+void print_data (int tamanho);
+int tamanho_arquivo(char* nome_arq);
+void libera_memoria();
+
 #endif // HASHTABLE_H_INCLUDED
