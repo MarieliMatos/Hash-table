@@ -35,17 +35,14 @@ void arquivo(char* nome_arq)
 
     rewind(fp);
 
-    // Aloca a memória para a struct data
-    //data_t* array_dados[tamanho_arq];
 
     // Lê os dados do arquivo
-    while(fgets(buffer, 64, fp) != NULL)
+    while(fgets(buffer, BUFFER_SIZE, fp) != NULL)
     {
-        fscanf(fp,"%50[^,],%50[^,]", buffer_eng, buffer_pt);
-        //printf("%s\n", buffer_eng);
+        sscanf(buffer,"%50[^,],%50[^,]", buffer_eng, buffer_pt);
+        //printf("%s, %s \n", buffer_eng, buffer_pt);
         insere_elemento(buffer_eng, buffer_pt, tamanho_arq);
     }
-    //print_data(NOME_ARQ);
     fclose(fp);
 }
 

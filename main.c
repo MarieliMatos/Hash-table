@@ -8,7 +8,6 @@ int main()
     int procura_palavra = 0;
     arquivo("palavras.csv");
 
-    //print_data("palavras.csv");
 
     /** testes **/
     procura_palavra = procura("usual");

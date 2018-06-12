@@ -13,4 +13,5 @@ void print_data (char* nome_arq);
 int tamanho_arquivo(char* nome_arq);
 void libera_memoria();
 
+
 #endif // HASHTABLE_H_INCLUDED
