@@ -1,7 +1,7 @@
 a,um
 eye,olho
 I,eu
-oh,√≥
+oh,Û
 at,em
 out,fora
 eight,oito
@@ -13,21 +13,21 @@ above,acima
 object,objeto
 observe,observar
 occur,ocorrer
-idea,id√©ia
+idea,idÈia
 other,outro
-either,tamb√©m
+either,tambÈm
 add,adicionar
 edge,canto
 age,idade
 effect,efeito
 often,muitas-vezes
 offer,oferecer
-office,escrit√≥rio
+office,escritÛrio
 if,se
 off,desligado
 afraid,com medo
-after,ap√≥s
-ago,atr√°s
+after,apÛs
+ago,atr·s
 egg,ovo
 again,de novo
 against,contra
@@ -36,21 +36,21 @@ exact,exato
 example,exemplo
 act,agir
 excite,instigar
-oxygen,oxig√™nio
-exercise,exerc√≠cio
+oxygen,oxigÍnio
+exercise,exercÌcio
 except,exceto
 expect,esperar
 experiment,experimento
-experience,experi√™ncia
+experience,experiÍncia
 allow,permitir
-electric,el√©trico
+electric,elÈtrico
 element,elemento
 island,ilha
 always,sempre
-oil,√≥leo
+oil,Ûleo
 all,todo
 old,velho
-also,tamb√©m
+also,tambÈm
 else,outro
 imagine,imaginar
 among,entre
@@ -65,11 +65,11 @@ energy,energia
 an,um / uma
 in,em / dentro
 on,em
-own,pr√≥prio
+own,prÛprio
 include,incluir
 indicate,indicar
 under,sob
-industry,ind√∫stria
+industry,ind˙stria
 and,e
 end,fim / finalizar
 anger,raiva
@@ -80,10 +80,10 @@ insect,inseto
 instant,instante
 answer,resposta
 instrument,instrumento
-util,at√©
+util,atÈ
 inch,polegada
 invent,inventar
-apple,ma√ß√£
+apple,maÁ„
 open,aberto
 operate,operar
 appear,aparecer
@@ -91,21 +91,21 @@ opposite,oposto
 up,para-cima
 equate,equacionar
 equal,igual
-area,√°rea
+area,·rea
 original,original
 arrange,arranjar
 arrive,chegar
 air,ar
-are,s√£o / est√£o
+are,s„o / est„o
 art,arte
 our,nosso
 hour,hora
 ear,orelha / espiga
 or,ou
 order,ordem / pedido
-organ,√≥rg√£o
+organ,Ûrg„o
 early,cedo
-arm,bra√ßo
+arm,braÁo
 iron,ferro
 earth,terra
 as,como / enquanto
@@ -113,15 +113,15 @@ ice,gelo
 us,nos
 test,teste
 east,leste
-is,√©
+is,È
 ocean,oceano
 ask,pedir / perguntar
 especially,especialmente
-atom,√°tomo
+atom,·tomo
 each,cada
 even,mesmo
 event,evento
-ever,sempre / j√°
+ever,sempre / j·
 over,sobre / acima-de
 of,de
 evening,noite
@@ -133,7 +133,7 @@ beauty,beleza
 bottom,baixo
 better,melhor
 but,mas
-bat,morcego / bast√£o
+bat,morcego / bast„o
 buy,comprar
 by,por
 bit,pouco / broca
@@ -142,15 +142,15 @@ beat,bater
 bought,comprado
 boy,garoto
 boat,barco
-baby,beb√™
+baby,bebÍ
 bad,mal
 bed,cama
 body,corpo
 before,antes
-began,come√ßado
+began,comeÁado
 big,grande
-begin,come√ßar
-back,atr√°s / costas
+begin,comeÁar
+back,atr·s / costas
 book,livro
 box,caixa
 believe,acreditar
@@ -163,12 +163,12 @@ band,banda
 bank,banco
 bar,bar / barra
 bear,urso / carregar
-bird,p√°ssaro
+bird,p·ssaro
 board,quadro
 burn,queimar
 born,nascido
-behind,atr√°s
-basic,b√°sico
+behind,atr·s
+basic,b·sico
 base,base
 best,melhor
 both,ambos
@@ -182,8 +182,8 @@ black,negro
 block,bloco
 bright,claro
 brought,trazido
-brother,irm√£o
-bread,p√£o
+brother,irm„o
+bread,p„o
 broad,amplo
 break,quebrar
 broke,quebrado
@@ -201,7 +201,7 @@ collect,recolher / pagar
 column,coluna
 colony,colonia
 color,cor / colorir
-cell,cela / c√©lula
+cell,cela / cÈlula
 call,chamar
 cool,frio
 cold,frio
@@ -214,32 +214,32 @@ connect,conectar
 continent,continente
 count,contar / contagem
 cent,centavo
-condition,condi√ß√£o
+condition,condiÁ„o
 consider,considerar
 consonant,consoante
 continue,continuar
 contain,conter
 center,centro
-country,pa√≠s
-century,s√©culo
+country,paÌs
+century,sÈculo
 control,controle
 copy,copiar
 correct,correto
 current,atual
 car,carro
-card,cart√£o
+card,cart„o
 chord,acorde
 corner,esquina
 corn,milho
 course,curso
 cost,custo
 coast,costa / litoral
-cotton,algod√£o
+cotton,algod„o
 cover,cobrir
 cause,causa
 cloud,nuvem
 clothe,vestir
-clock,rel√≥gio
+clock,relÛgio
 climb,escalar
 claim,clamar
 clean,limpo
@@ -248,7 +248,7 @@ class,classe
 close,fechar
 cry,choro / chorar
 create,criar
-crowd,multid√£o
+crowd,multid„o
 crop,colheita
 crease,ruga
 cross,cruz / cruzar
@@ -263,22 +263,22 @@ doctor,doutor
 dad,papai
 dead,morto
 did,fez / mesmo
-difficult,dif√≠cil
+difficult,difÌcil
 differ,diferir
 dog,cachorro
 degree,grau
 duck,pato / mergulhar
-dictionary,dicion√°rio
-dollar,d√≥lar
-deal,neg√≥cio
+dictionary,dicion·rio
+dollar,dÛlar
+deal,negÛcio
 them,deles
 done,feito
 down,baixo
-don't,n√£o
+don't,n„o
 than,que
-then,ent√£o
+then,ent„o
 danger,perigo
-dance,dan√ßa
+dance,danÁa
 depend,depender
 deep,profundo
 direct,direto
@@ -286,7 +286,7 @@ during,durante
 dear,querido
 door,porta
 their,seus
-there,l√°
+there,l·
 dark,escuro
 decide,decidir
 decimal,decimal

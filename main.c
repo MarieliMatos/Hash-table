@@ -5,22 +5,72 @@
 
 int main()
 {
-    int procura_palavra = 0;
+   int procura_palavra = 0, menu;
+    char palavra[60], excluir[60], op;
     arquivo("palavras.csv");
 
+    setlocale(LC_ALL, "Portuguese");
 
-    /** testes **/
-    procura_palavra = procura("usual");
-    if (procura_palavra == -1)
-        printf("Palavra nao encontrada\n");
+    system("cls");
+    printf("\tDicionário Inglês/Português\n");
+    printf("1 - Tradução\n");
+    printf("2 - Mostrar todas as traduções\n");
+    printf("3 - Excluir palavra\n");
+    printf("4 - Sair\n");
+    scanf("%d", &menu);
 
-    exclui_palavra("dad");
+    switch(menu)
+    {
+    case 1:
+        system("cls");
+        printf("Inserir palavra: ");
+        fflush(stdin);
+        gets(palavra);
 
-    print_data("palavras.csv");
+        procura_palavra = procura(palavra);
 
-    procura_palavra = procura("dad");
-    if (procura_palavra == -1)
-        printf("Palavra nao encontrada\n");
+        if (procura_palavra == -1)
+            printf("Palavra nao encontrada\n");
+        printf("\nRetornar ao menu? <s>  <n>\n");
+        fflush(stdin);
+        scanf("%c", &op);
+        if (op == 's' || 'S')
+            return main();
+        else
+            break;
+
+    case 2:
+        system("cls");
+        print_data("palavras.csv");
+
+        printf("\nRetornar ao menu? <s>  <n>\n");
+        fflush(stdin);
+        scanf("%c", &op);
+        if (op == 's' || 'S')
+            return main();
+        else
+            break;
+
+    case 3:
+        system("cls");
+        printf("Inserir palavra: ");
+        fflush(stdin);
+        gets(excluir);
+
+        exclui_palavra(excluir);
+
+        printf("\nRetornar ao menu? <s>  <n>\n");
+        fflush(stdin);
+        scanf("%c", &op);
+        if (op == 's')
+            return main();
+        else
+            system("cls");
+            break;
+    case 4:
+        break;
+    }
+
 
     return 0;
 }
