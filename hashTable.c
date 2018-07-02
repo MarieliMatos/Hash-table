@@ -14,7 +14,7 @@ struct data
     char *ptbr;
 };
 
-data_t* array_dados[294];               // Vetor estatico
+data_t* array_dados[1004];               // Vetor estatico
 
 void arquivo(char* nome_arq)
 {
@@ -90,7 +90,7 @@ int hash_code(char* palavra, int tamanho)
         carac = palavra[i];
         num += carac;
     }
-    index = num%tamanho;
+    index = (index+1)%tamanho;
 #ifndef DEBUG
     printf("%d\n", index);
 #endif // DEBUG
@@ -140,6 +140,7 @@ void exclui_palavra(char* palavra)
     conf = procura(palavra);
     if(conf == -1)
         printf("Palavra excluida com sucesso!\n");
+	free(del_data);
 }
 
 /**  Função que retorna o tamanho do arquivo  **/
@@ -174,8 +175,6 @@ void print_data (char* nome_arq)
     {
         if(array_dados[i] != NULL)
             printf("%d  %s     %s\n", i, array_dados[i]->eng, array_dados[i]->ptbr);
-        else
-            printf("(vazio)\n");
     }
 }
 

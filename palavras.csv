@@ -1,3 +1,4 @@
+
 a,um
 eye,olho
 I,eu
@@ -292,3 +293,712 @@ decide,decidir
 decimal,decimal
 distant,distante
 death,morte
+thus,assim
+this,este
+discuss,discutir
+describe,descrever
+dessert,sobremesa
+determine,determinar
+divide,dividir
+develop,desenvolver
+division,divisão
+design,desenho
+desert,deserto
+does,faz / mesmo
+these,estes
+those,aqueles
+dry,seco
+draw ,arrastar / empate
+dream,sonho
+drink,bebida
+drop,gota
+dress,vestido
+drive,direção / dirigir
+fat,gordo
+fight,luta
+fit,ajustado
+feet,pés
+few,alguns
+foot,pé
+father,pai
+feed,alimentar
+food,comida
+fig,figo
+figure,figura / imaginar
+fact,fato
+follow,seguir
+fell,caido
+felt,sentido
+feel,sentir / sentimendo
+fill,encher
+fall,cair / queda / outono
+full,cheio
+field,campo
+family,família
+famous,famoso
+final,final
+finish,fim / finalizar
+fine,bom / excelente
+fun,alegria
+find,encontrar
+found,encontrado / fundar
+finger,dedo
+forward,adiante / passar adiante
+forest,floresta
+fair,feira / claro
+fire,fogo / incêndio / despedir
+far,longe
+fear,medo / temer
+for,por / para
+four,quatro
+farm,fazenda
+form,forma / formulário
+first,primeiro
+force,força / forçar
+fast,rápido
+face,rosto
+fish,peixe / pescar
+favor,favor / favorecer
+five,cinco
+flat,achatado / plano
+fly,voar / mosca
+flow, correr / corrente
+flower,flor
+floor,chão / derrotar
+free,livre / grátis
+fruit,fruta
+fraction,fração
+from ,de
+front,frente
+friend,amigo
+fresh,fresco
+phrase,frase
+got,ficado
+go,ir
+guide,guia / guiar
+good,bom
+gold,ouro
+gun,arma
+gone,ido
+garden,jardim
+girl,garota
+govern,governar
+get,ficar
+gather,juntar
+game,jogo
+gas,gás / gasolina
+guess,adivinhar
+gave,dado
+give,dar
+glad,contente
+glass,vidro
+gray,cinza
+great,grande
+grow,crescer
+grew,crescido
+green,verde
+grand,grandioso
+ground,terra / amolado
+group,grupo
+grass,grama
+joy,alegria
+jump,pular
+join,juntar
+general,general / geral
+gentle,gentil
+just,justo / só
+job,trabalho / jó
+cat,gato
+key,chave
+kill,matar
+came,chegado
+camp,campo
+can,pode / lata
+candle,vela
+kind,bom / tipo
+king,rei
+capital,capital
+kept,guardado
+keep,guardar
+captain,capitão
+carry,carregar
+character,caráter / personagem
+care,cuidado
+case,caso / embalagem
+catch,pegar
+little,pequeno / pouco
+letter,letra / carta
+lie,deitar / mentir
+light,leve / luz
+let,deixar
+late,tarde
+lay,deitar / amador
+law,lei
+lot,muito / lote
+low,baixo
+lady,dama
+loud,alto(som)
+led,levado
+lead,levar / chumbo
+laugh,rir
+life,vida
+left,esquerda / deixado
+lift,levantar
+leg,perna
+log,lenha / diário
+locate,localizar
+like,como / gostar
+lake,lago
+look,olhar
+line,linha / fila
+lone,só
+land,terra
+language,língua
+length,comprimento
+long,longo
+liquid,líquido
+large,grande
+learn,aprender
+last,último / durar
+less,menos
+least,menos
+list,lista
+lost,perdido
+listen,ouvir
+live,viver / vivo
+level,nível
+love,amor / amar
+leave,deixar
+metal,metal
+matter,matéria / importar-se
+might, poder / poderia
+my,meu
+may,maio / pode
+me,me / eu
+meat,carne
+meet,encontrar
+maybe,talvez
+middle,meio
+mother,mãe
+modern,moderno
+made,feito
+major,maior / major
+magnet,imã
+measure,medida
+make,fazer
+mix,mistura
+melody,melodia
+molecule,molécula
+million,milhão
+mile,milha
+milk,leite
+multiply,multiplicar
+moment,momento
+many,muitos
+money ,dinheiro
+minute,minuto
+man,homem
+mine,meu / mina
+month,mês
+mount,monte / montar
+main,principal
+meant,significado
+men,homens
+mean,meio / significar
+moon,lua
+mind,mente / importar-se
+mountain,montanha
+map,mapa
+more,mais
+market,mercado
+mark,marcar
+morning,manhã
+method,método
+mass,massa / missa
+must,dever
+miss,sentir / senhorita
+most,mais / maior
+mouth,boca
+machine,máquina
+motion,movimento
+master,mestre
+material,material
+match,competição
+much,muito
+move,movimento
+music,música
+notice,aviso
+night,noite
+now,agora
+know,saber
+no,não
+note,anotar
+knew,sabido
+new,novo
+neighbor,vizinho
+need,precisar
+neck,pescoço
+next,próximo
+numeral,numeral
+name,nome
+number,número
+nine,nove
+noun,substantivo
+noon,meio-dia
+near,perto
+nor,nem
+north,norte
+nothing,nada
+necessary,necessário
+nation,nação
+natural,natural
+nature,natureza
+never,nunca
+noise,barulho
+nose,nariz
+pattern,padrão
+pay,pagar
+put,por
+page,página
+pick,escolher / apanhar
+picture,foto / filme
+pull,puxar
+poem,poema
+paint,pintar
+point,ponto
+pound,libra
+populate,povoar
+people,pessoas / povo
+paper,papel
+period,período
+paragraph,parágrafo
+parent,pais
+pair,par
+part,parte
+power,poder / força
+port ,porto
+poor,pobre
+perhaps,talvez
+person,pessoa
+particular,especial
+party,partido / festa
+possible,possível
+pass,passar
+past,passado
+piece,peça / pedaço
+post,pós / posto
+path,caminho
+push,empurrar / iniciativa
+pitch,piche / arremeço
+position ,posição
+pose,posição
+play,peça / tocar
+planet,planeta
+plan, plano
+plant,planta / fábrica
+plain,plano / simples
+plane,avião
+plural,plural
+place,lugar
+please,por-favor / agradar
+protect,proteger
+probable,provável
+problem,problema
+practice,prática
+process,processo
+product,produto
+produce,rodução
+print,imprimir
+principal,principal / diretor
+property,propriedade
+proper,próprio
+prepare,preparar
+press,pressão / imprensa
+pretty,belo / muito
+provide,fornecer
+prove,provar
+present,presente
+quiet,quieto
+quite,muito
+quick,rápido
+quart,quarto(medida)
+quotient,quociente
+question,questão / pergunta
+right,direito
+write,escrever
+row,remar / fila
+wrote,escrito
+root,raiz
+rub,esfregar
+record,recorde / gravar / registro
+receive,receber
+radio,rádio
+ready,pronto
+rather,de-preferência
+ride,passeio
+red,vermelho
+read,ler / lido
+road,estrada
+region,região
+rock,roque / rocha
+rail,grade / trilho
+real,real
+roll,giro / lista
+rule,régua / regra
+remember,lembrar
+room,cômodo / quarto
+ran,corrido
+run,correr
+rain,chuva
+round,redondo / rodada
+range,alcance / pastagem
+ring,anel / tocar
+wrong,errado
+repeat,repetir
+rope,corda
+reply,resposta
+represent,representar
+require,exigir
+race,raça / corrida
+rest,resto / descanso
+written,escrito
+reach,alcançar
+rich,rico
+river,rio
+result,resultado
+reason,razão
+rise,levantar
+raise,levantar
+rose,rosa / levantado
+hot,quente
+hat,chapéu
+high,alto
+it,acertar
+he,ele
+heat,calor
+who,que
+had,tinha
+head,cabeça
+huge,grande / enorme
+half,metade
+hill,colina
+hole,buraco
+whole,inteiro
+held,guardado
+hold,guardar
+help,ajudar
+human,humano
+him,dele
+home,casa
+hunt,caçar
+hand,mão
+hundred,cem
+happy,feliz
+happen,acontecer
+hope,esperança
+hurry,pressa
+hair,cabelo
+her,dela
+hear,ouvir
+here,aqui
+heart,coração
+hard,duro
+heard,ouvido
+horse,cavalo
+has,tem
+house,casa
+his,seu
+history,história
+heavy,pesado
+have,ter
+whose,cujo
+how,como / quão
+settle,estabelecer
+sat,sentado
+sight,visão
+set,conjunto / fixar
+say,dizer
+state,estado
+sit,sentar
+sea,mar
+seat,assento
+see,ver
+saw,viu / serra
+so,assim / tão
+suit,terno
+thought,pensamento / pensado
+though,apesar-de
+subject,sujeito / assunto
+subtract,subtrair
+substance,substância
+substantive,substantivo
+second,segundo
+sudden,imprevisto
+student,estudante
+said,disse
+side,lado
+seed,semente
+suffix,sufixo
+soft,macio
+safe,seguro / cofre
+suggest,sugerir
+segment,segmento
+thick,grosso
+success,sucesso
+six,seis
+section,seção
+syllable,sílaba
+select,selecionar
+silent,silencio
+solution,solução
+sail,vela(navio)
+soil,solo
+salt,sal
+soldier,soldado
+self,próprio / ego
+silver,prata
+solve,resolver
+similar, semelhante
+summer,verão
+some,algum
+same,mesmo
+seem,parecer
+swim,nadar
+symbol,símbol
+simple,simples
+son,filho
+sun,sol
+sent,enviado
+soon,logo
+thin,fino / magro
+sand,areia
+sound,som
+send,enviar
+single,só / solteiro
+thank,agradecer
+science,ciência
+sense,sentido
+since,desde
+sentence,sentença
+sing,cantar
+song,canção
+thing,coisa
+separate,separado
+support,apoiar
+supply,suprir
+start,começar
+third,terceiro
+surface,superficie
+circle,círculo
+surprise,surpresa
+ certain,certo
+search,buscar
+serve,servir
+south,sul
+system,sistema
+sister,irmã
+such,tal
+seven,sete
+save,salvar
+several,vários
+season,estação
+thousand,mil
+size,tamanho
+score,placar / duas-dezenas
+shout,gritar
+she,ela
+sheet,folha / lençol
+show,mostrar
+shoe,sapato
+should ,deveria
+sugar,açúcar
+shall,vai
+shell,concha
+shoulder,ombro
+shine,brilhar
+shop,loja
+shape,forma
+ship,navio / embarcar
+share,parte
+shore,praia
+short,curto
+sure,certo
+sharp,agudo / sustenido
+sky,céu
+scale,escada / escala / escama
+skill,habilidade
+school,escola
+skin,pele
+slow,devagar
+sleep,dormir
+slip,escorregar
+slave,escravo
+smile,sorriso
+smell,cheiro
+small,pequeno
+snow,neve
+spot,ponto
+speed,velocidade
+speak,falar
+spoke,falado / raio
+spell,soletrar / encanto
+spend,gastar
+space,espaço
+special,especial
+speech,discurso
+spread,espalhar
+spring,primavera / mola
+square,quadrado / praça
+straight,reto
+street,rua
+three,três
+throw,arremessar
+through,através-de
+stay,ficar
+study,estudo
+stead,local
+stood,permanecido
+stick,vareta / fincar
+steel,aço
+still,até / calmo
+steam,vapor
+stone,pedra
+standard,padrão
+stand,permanecer / de-pé / banca
+stop,parar
+step,passo
+story,estória / andar(prédio)
+star,estrela
+store,armazém
+station,estação
+stream,corrente
+strange,estranho
+string,corda
+strong,forte
+stretch,alcance
+total,total
+tie,amarrar
+to,para
+too,também
+two,dois / duas
+table,mesa / tabela
+tube,tubo / tv
+together,juntos
+take,pegar
+talk,conversar
+took,pego
+tail,rabo
+tell,contar
+tall,alto(pessoa)
+tool,ferramenta
+told,contado
+time,tempo / hora
+team,grupo
+temperature,temperatura
+tiny,minúsculo
+town,municipal
+ten,dez
+tone,tom
+twenty,vinte
+type,tipo / datilografar
+top,topo / principal
+tire,pneu / cansar
+toward,para
+term,termo / período
+turn,tornar / vez
+teeth,dentes
+tooth,dente
+teach,ensinar
+chief,chefe
+check,cheque / checagem
+chick,pintinho
+child,criança
+children,crianças
+change,mudar
+chance,chance / acaso
+chair,cadeira
+chart,gráfico
+charge,carga / cobrança
+choose,escolher
+tree,árvore
+try,tentar
+true,verdadeiro
+trouble,preocupação
+trade,comércio
+track,trilha
+truck,caminhão
+train,trem / treinar
+triangle,triângulo
+trip,viajar / passeio
+travel,viajar
+view,vista
+valley,vale
+value,valor
+village,vila
+vowel,vogal
+vary,variar
+very,muito / absoluto
+verb,verbo
+voice,voz
+visit,visita
+water,água
+white,branco
+why,por-que
+wait,esperar
+way,caminho / jeito
+weight,peso
+we,nós
+what,o-que
+weather,tempo
+whether,se
+wide,amplo
+wood,madeira
+would,deveria
+with,com
+wife,esposa
+week,semana
+walk,andar
+while,enquanto
+well,bem / poço
+wheel,roda
+will, vai / vontade
+wall,parede
+wild,selvagem
+women, mulheres
+woman,mulher
+winter,inverno
+one,um
+want,querer
+went,foi
+when,quando
+win,ganhar
+won't,não-vai
+window,janela
+wonder,admirar
+wind,vento
+once,uma-vez
+wing,asa
+wire,arame
+war,guerra
+were,eram / esavam
+wear,usar
+where,onde
+word,palavra
+work,trabalho
+world,mundo
+warm,quente
+west,oeste
+was,era / estava
+wish,desejo
+wash,lavar
+which,qual
+watch,assistir / relógio
+wave,onda
+yet,ainda / já
+you,você
+yellow,amarelo
+young,jovem
+year,ano
+your,seu
+yard,jarda / quintal
+yes,sim
